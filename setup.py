@@ -117,7 +117,7 @@ ray_extra_require = [
         " python_version<'3.11'"
     ),
     # Ray Data v2.4 in Python 3.11 is broken, but got fixed in Ray v2.5.
-    "ray[default] >= 2.5, <= 2.47.1; python_version=='3.11'",
+    "ray[default] >= 2.5, <= 2.47.1; python_version>='3.11'",
     "google-cloud-bigquery-storage",
     "google-cloud-bigquery",
     "pandas >= 1.0.0",
